@@ -1,0 +1,27 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.parent h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 9px;
+    font-size: 50px;
+    font-style: italic;
+}
+.parent h4{
+    font-size: 23px;
+}
+.parent button{
+    padding: 15px 50px;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    margin-block: 40px;
+    transition: 0.3s;
+}
+.parent button:hover{
+    background-color: black;
+    color: #fff;
+}
